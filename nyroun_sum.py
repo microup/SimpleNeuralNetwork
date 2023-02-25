@@ -8,8 +8,9 @@ model = tf.keras.models.Sequential([
 ])
 
 filename = 'my_model.h5'
+
 if os.path.exists(filename):
-    model = tf.keras.models.load_model('my_model.h5')
+    model = tf.keras.models.load_model(filename)
 else:    
     model.compile(optimizer='adam', loss='mse')
 
@@ -18,7 +19,7 @@ else:
 
     model.fit(X_train, y_train, epochs=10000, verbose=0)
 
-    model.save('my_model.h5')
+    model.save(filename)
 
 # input data for testing
 X_test = [[7, 8], [45, 10], [199, 20], [1000, 20], [4000, 3000],
