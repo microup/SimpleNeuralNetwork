@@ -1,4 +1,4 @@
-##SimpleNeuralNetwork
+## Simple Neural Network
 
 This code represents the implementation of a simple neural network with one input layer, one hidden layer, and one output layer that can predict a target value based on input data.
 
