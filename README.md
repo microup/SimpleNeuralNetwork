@@ -1,3 +1,5 @@
+##SimpleNeuralNetwork
+
 This code represents the implementation of a simple neural network with one input layer, one hidden layer, and one output layer that can predict a target value based on input data.
 
 The config.py file defines the data for training and testing the neural network. The training data is represented as a two-dimensional array TrainData, and the corresponding target values are represented as an array TrainTarget. The test data is represented as a two-dimensional array InputData, and the corresponding expected target values are represented as an array TargetData.
